@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../../../components/Form/Button/Button";
-import avatar from "../../../../assets/jonathan.webp";
+import avatar from "../../../../assets/dan.svg";
 import "./Jumbotron.css";
 
 const Jumbotron: React.FC = () => {
