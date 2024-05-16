@@ -48,7 +48,7 @@ const Process: React.FC = () => {
             </div>
           </div>
           <div className="collapse-content">
-            <p>hello</p>
+            <Operator />
           </div>
         </div>
         <div
@@ -92,7 +92,9 @@ const Process: React.FC = () => {
               </span>
             </div>
           </div>
-          <div className="collapse-content">content</div>
+          <div className="collapse-content">
+            <Operator />
+          </div>
         </div>
 
         <div
@@ -113,7 +115,9 @@ const Process: React.FC = () => {
               </span>
             </div>
           </div>
-          <div className="collapse-content">content</div>
+          <div className="collapse-content">
+            <Operator />
+          </div>
         </div>
         <div
           className={`${
@@ -133,7 +137,9 @@ const Process: React.FC = () => {
               </span>
             </div>
           </div>
-          <div className="collapse-content">content</div>
+          <div className="collapse-content">
+            <Operator />
+          </div>
         </div>
         <div
           className={`${
@@ -153,7 +159,9 @@ const Process: React.FC = () => {
               </span>
             </div>
           </div>
-          <div className="collapse-content">content</div>
+          <div className="collapse-content">
+            <Operator />
+          </div>
         </div>
       </div>
     </div>
