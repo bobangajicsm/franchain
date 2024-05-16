@@ -1,0 +1,48 @@
+.header {
+  height: 180px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.avatar {
+  position: relative;
+  margin-left: 8px;
+  margin-top: 32px;
+}
+
+.avatar-img {
+  max-width: 256px;
+  position: relative;
+  z-index: 1;
+  margin-left: 8px;
+}
+
+.avatar-bg {
+  background-color: var(--color-primary);
+  border-radius: 100%;
+  width: 291px;
+  height: 291px;
+  position: absolute;
+  bottom: -50%;
+}
+
+.avatar-popup {
+  position: absolute;
+  z-index: 1;
+  width: 366px;
+  height: 128px;
+  border-radius: 10px 10px 10px 0px;
+  border: 1px solid var(--color-primary);
+  background-color: white;
+  padding: 18px 26px;
+  left: 183px;
+  top: -20px;
+  box-shadow: 0px 0px 10px 0px var(--color-shadow);
+}
+
+.avatar-popup p {
+  font-size: 18px;
+  line-height: 23px;
+}

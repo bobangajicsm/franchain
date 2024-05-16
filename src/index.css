@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #7d97ff;
+  --color-shadow: #7d97ff80;
+  --color-secondary: #ffed4a;
+  --color-accent: #e3342f;
+  --color-bg: #f8f8fb;
+  --color-bg-secondary: #efefef;
+  --color-bg-dark: #151515;
+  --color-bg-dark-secondary: #343434;
+  --color-text: #151515;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

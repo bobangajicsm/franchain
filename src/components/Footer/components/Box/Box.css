@@ -1,0 +1,20 @@
+.box-wrapper {
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+  width: 100%;
+  margin-right: 30px;
+  height: 250px;
+}
+
+.box-wrapper:last-child {
+  margin-right: 0;
+}
+
+.box-image {
+  max-width: 121px;
+  margin-bottom: 15px;
+}
+
+.box-text {
+  font-size: 25px;
+}

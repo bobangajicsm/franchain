@@ -1,0 +1,42 @@
+.sidebar {
+  background-color: var(--color-bg-dark);
+  padding-top: 60px;
+}
+
+.logo {
+  margin-left: 30px;
+  max-width: 175px;
+}
+
+.nav {
+  margin-top: 70px;
+}
+
+.nav-link,
+.nav-link.collapse-title {
+  height: 58px;
+  padding-left: 30px;
+  padding-right: 23px;
+  transition-duration: 0.3s;
+}
+
+.nav-link.active {
+  border-left: 5px solid var(--color-primary);
+  padding-right: 30px;
+  background-color: var(--color-bg-dark-secondary);
+}
+
+.nav-link:hover {
+  background-color: var(--color-bg-dark-secondary);
+}
+
+.nav-progress {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.nav-arrow {
+  width: 15px;
+}

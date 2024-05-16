@@ -1,0 +1,16 @@
+.operator {
+  padding: 52px 37px;
+}
+
+.video {
+  width: 370px;
+  height: 246px;
+  background-color: black;
+  margin-right: 65px;
+}
+
+.operator-text {
+  font-size: 18px;
+  max-width: 489px;
+  margin-bottom: 55px;
+}

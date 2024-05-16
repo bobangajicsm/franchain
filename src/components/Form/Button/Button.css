@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 17px;
+  border-radius: 44px;
+  padding: 15px 44px;
+  transition-duration: 0.3s;
+  line-height: 22px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 1;
+}
